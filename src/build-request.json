@@ -1,0 +1,43 @@
+{
+  "kind": "build_request",
+  "title": "Add 'DEE stream' text next to logo in header with logo theme styling",
+  "projectName": "DEE stream",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-15",
+      "text": "Add 'DEE stream' text next to the logo in the website header, styled with matching logo theme colors and using the Poppins font family consistent with the website typography",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-last"
+        ],
+        "quotes": [
+          "i want last one change you add text DEE stream . like logo theme and font in the websiste header"
+        ]
+      },
+      "acceptanceCriteria": [
+        "The text 'DEE stream' appears next to the logo in the header component",
+        "The text uses the Poppins font family matching the website's typography",
+        "The text styling matches the logo's theme colors (gradient or solid color)",
+        "The text and logo are properly aligned and spaced",
+        "The text remains visible and properly styled on scroll",
+        "The layout is responsive on mobile devices"
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not modify the logo image itself",
+    "Maintain the existing header scroll behavior and styling",
+    "Preserve the navigation menu functionality"
+  ],
+  "nonGoals": [
+    "Changing the logo image",
+    "Modifying other sections of the website",
+    "Altering the color scheme beyond the text addition"
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}

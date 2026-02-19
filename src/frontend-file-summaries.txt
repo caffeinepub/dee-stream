@@ -1,0 +1,16 @@
+{
+  "frontend/src/App.tsx": "Main application component that renders the complete DEE stream OTT platform with header, hero section, about, services, featured films, filmmakers, testimonials, social media, contact sections, and footer in a single-page layout with white and soft blue gradient theme.",
+  "frontend/src/components/Header.tsx": "Fixed header component with uploaded DEE stream logo followed by \"DEE stream\" text in gradient blue styling using Poppins font, smooth scroll navigation to all sections, and dynamic background that changes on scroll with premium styling and mobile responsiveness.",
+  "frontend/src/components/HeroSection.tsx": "Cinematic hero section with \"Where New Cinema Begins\" headline, subtext, two CTA buttons (Watch Now, Submit Your Film), and cinematic OTT background image with darker gradient overlay for better text contrast.",
+  "frontend/src/components/AboutSection.tsx": "About section displaying DEE stream's mission statement and platform description with centered layout and soft blue gradient text accent.",
+  "frontend/src/components/ServicesSection.tsx": "Services section with responsive grid layout showcasing five key offerings (Digital Premieres, Independent Distribution, Regional Cinema, Web Series, OTT Platform) with icons and hover animations.",
+  "frontend/src/components/FilmmakersSection.tsx": "For Filmmakers section with distribution opportunity content and \"Submit via Email\" CTA button that opens mailto link to dee.streaming.cinema@gmail.com.",
+  "frontend/src/components/SocialMediaSection.tsx": "Social media section with \"Connect With Us\" heading and clickable Instagram and Facebook icons with gradient backgrounds and smooth hover animations.",
+  "frontend/src/components/ContactSection.tsx": "Contact section displaying email address and contact form with Name, Email, and Message fields, form validation, and mailto submission functionality with toast notifications.",
+  "frontend/src/components/Footer.tsx": "Professional footer with uploaded DEE stream logo, tagline, quick links navigation including Featured Films and Testimonials, contact email, social media icons, copyright notice, and caffeine.ai attribution with UTM tracking.",
+  "frontend/src/index.css": "Global styles with Poppins font family, white and soft blue gradient OKLCH color system for light/dark modes, smooth animations, and premium OTT platform aesthetic.",
+  "frontend/tailwind.config.js": "Tailwind configuration with Poppins font family, custom white and soft blue color palette, soft shadows, smooth animations, and mobile-first responsive design tokens.",
+  "frontend/src/main.tsx": "Application entry point with React Query, Internet Identity provider, Toaster component for notifications, and root rendering setup.",
+  "frontend/src/components/FeaturedFilmsSection.tsx": "Featured Films section displaying a responsive grid of four film cards with poster images, titles, genres, and smooth hover animations that reveal additional details with gradient overlays matching the white/soft blue theme.",
+  "frontend/src/components/TestimonialsSection.tsx": "Testimonials section showcasing three filmmaker testimonial cards with quotes, names, roles, quote icons, and smooth hover animations using the white/soft blue gradient theme with premium styling."
+}

@@ -1,0 +1,26 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Add 'DEE stream' text next to logo in header with logo theme styling",
+  "requirements": [
+    {
+      "id": "REQ-15",
+      "summary": "Add 'DEE stream' text next to the logo in the website header, styled with matching logo theme colors and using the Poppins font family",
+      "acceptanceCriteria": [
+        "The text 'DEE stream' appears next to the logo in the header component",
+        "The text uses the Poppins font family matching the website's typography",
+        "The text styling matches the logo's theme colors (gradient or solid color)",
+        "The text and logo are properly aligned and spaced",
+        "The text remains visible and properly styled on scroll",
+        "The layout is responsive on mobile devices"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/Header.tsx",
+          "operation": "modify",
+          "description": "Add 'DEE stream' text element next to the logo image in the header. Apply Poppins font family (already configured in Tailwind config). Style the text with gradient colors matching the logo theme using Tailwind gradient utilities (bg-gradient-to-r with blue/cyan tones). Ensure proper flexbox alignment and spacing between logo and text. Maintain existing scroll behavior where the header changes appearance on scroll. Ensure responsive layout with appropriate text sizing on mobile devices. The text should remain visible and styled consistently whether the header is scrolled or not."
+        }
+      ]
+    }
+  ]
+}
